@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Person from './People/Person';
-import Radium, { StyleRoot} from 'radium';
+// import Radium, { StyleRoot} from 'radium';
 class App extends Component {
   state = {
     persons: [
@@ -59,11 +59,11 @@ class App extends Component {
       font: 'inherit',
       padding: '8px',
       border: '3px solid red',
-      cursor: 'pointer',
-      ':hover': {
-        backgroundColor: 'green',
-        color: 'black',
-      }
+      cursor: 'pointer'
+      // Radium styling ':hover': {
+      //   backgroundColor: 'green',
+      //   color: 'black',
+      // }
     };
 
 
@@ -82,10 +82,10 @@ class App extends Component {
 
                 </div>)
       style.backgroundColor = 'yellow'
-      style[':hover'] = {
-        backgroundColor: 'green',
-        color: 'white'
-      }
+      //  radium styling style[':hover'] = {
+      //   backgroundColor: 'green',
+      //   color: 'white'
+      // }
     }
 
     const classes = []
@@ -111,4 +111,5 @@ class App extends Component {
   }
 }
 
-export default Radium(App);
+// export default Radium(App);
+export default App;
