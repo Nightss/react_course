@@ -31,9 +31,16 @@
   font-weight: 900;
 }
 
-.button:hover {
-  
+.App button {
+  background-color: lightblue;
+  color: white;
+  font: inherit;
+  padding: 8px;
+  border: 3px solid red;
+  cursor: pointer;
 }
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

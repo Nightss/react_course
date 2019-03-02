@@ -1,0 +1,15 @@
+.Cockpit button:hover {
+  background-color: green;
+  color: black;
+  border: 3px solid yellow;
+  cursor: auto;
+}
+
+.Cockpit button.red {
+  background-color: red;
+
+}
+
+.Cockpit button.red:hover {
+  background-color: blue;
+}
